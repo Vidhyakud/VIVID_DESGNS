@@ -12,12 +12,11 @@ body {
 
 /* nav container */
 
-nav, .logo, p, h5, h6, th, td {
+nav, .logo, p, h3, h4, h5, h6, th, td {
     font-family: mono45-headline; 
     font-weight: 300;
     font-style: normal;
 } 
-
 
 .navcontainer {
     position: relative;
@@ -38,53 +37,53 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 40px; 
-    padding-top: 90px;
-    font-size: 30px;
-
-
+    padding-top: 100px;
 }
 
-/* heading */ 
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    color: #01b9ff; 
+}
+
+/* headings */ 
 
 h1 {
     font-family: mono45-headline, monospace;
     font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 100px; 
-    max-width: 2000px;
-    
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-    margin-right: -50rem;
-    padding-top: 200px;
+    font-style: normal;  
 } 
 
 h4 {
     font-family: mono45-headline, monospace;
     font-weight: 300;
     font-style: normal;
-    text-align: center;
-    font-size: 50px; 
-    max-width: 1500px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-top: 400px;
+   
 }
 
 /* container */ 
 
-.container {
-    max-width: 2000px;
-    margin: auto; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-} 
+.welcome {
+    margin-top: -600px;
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: 80px;
+}
+
+.welcome h3 {
+    font-size: 40px;
+}
+
+.welcome p {
+    font-size: 25px;
+}
+
+
 
 
 
