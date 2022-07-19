@@ -42,7 +42,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
+    color: black;
 }
 
 nav ul li a:hover {
@@ -64,7 +65,7 @@ h4 {
    
 }
 
-/* container */ 
+/* container for main/home page */ 
 
 .welcome {
     margin-top: -600px;
@@ -76,16 +77,57 @@ h4 {
 }
 
 .welcome h3 {
+    margin-top: -50px;
     font-size: 40px;
 }
 
+.welcome h3:hover {
+    color: #01b9ff; 
+}
+
 .welcome p {
+    margin-top: -25px;
     font-size: 25px;
+}
+
+/* about me page */ 
+
+.about {
+    width: 10px;
+    height: 10px;
+    right: 100%; 
+}
+
+
+.aboutmetitle {
+    text-align: center;
+    font-size: 35px;
+    margin-top: -600px;
+}
+    
+.about img {
+    width: 500px;
+    height: 500px;
+    margin-left: 160px; 
+}
+
+.abouttext {
+    text-align: right;
+    max-width: 700px;
+    margin-left: 1000px;
+    justify-content: center;
+}
+
+.abouttext p {
+    font-size: 27px;
 }
 
 
 
-
-
+/* footer */ 
+footer {
+    bottom: 0;
+    padding: 2rem;
+}
 
 
