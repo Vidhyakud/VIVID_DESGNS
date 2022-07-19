@@ -1,3 +1,92 @@
-h1 {
-    color: aquamarine;
+
+.logo img {
+    margin-top: 8rem;
+    margin-bottom: -8rem;
+    margin-left: 8rem;
+    width: 450px;
 }
+
+body {
+    text-align: justify;
+}
+
+/* nav container */
+
+nav, .logo, p, h5, h6, th, td {
+    font-family: mono45-headline; 
+    font-weight: 300;
+    font-style: normal;
+} 
+
+
+.navcontainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;    
+}
+
+nav {
+    display: flex;
+    width: 84%; 
+    margin: auto; 
+    padding: 50px 0;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 40px; 
+    padding-top: 90px;
+    font-size: 30px;
+
+
+}
+
+/* heading */ 
+
+h1 {
+    font-family: mono45-headline, monospace;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 100px; 
+    max-width: 2000px;
+    
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: -50rem;
+    padding-top: 200px;
+} 
+
+h4 {
+    font-family: mono45-headline, monospace;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px; 
+    max-width: 1500px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 400px;
+}
+
+/* container */ 
+
+.container {
+    max-width: 2000px;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+
+
+
+
