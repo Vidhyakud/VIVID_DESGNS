@@ -4,6 +4,7 @@
     margin-bottom: -8rem;
     margin-left: 8rem;
     width: 450px;
+    flex-wrap: wrap;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 
 /* nav container */
 
-nav, .logo, p, h3, h4, h5, h6, th, td {
+nav, .logo, p, h2, h3, h4, h5, h6, th, td {
     font-family: mono45-headline; 
     font-weight: 300;
     font-style: normal;
@@ -31,6 +32,7 @@ nav {
     padding: 50px 0;
     align-items: center; 
     justify-content: space-between; 
+
 }
 
 nav ul li {
@@ -65,15 +67,15 @@ h4 {
    
 }
 
-/* container for main/home page */ 
+/* home */ 
 
 .welcome {
-    margin-top: -600px;
+    margin-top: -500px;
     text-align: center;
 }
 
 .welcome h1 {
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .welcome h3 {
@@ -90,7 +92,12 @@ h4 {
     font-size: 25px;
 }
 
-/* about me page */ 
+
+.welcome img {
+    width: 650px;    
+}
+
+/* about */ 
 
 .about {
     width: 10px;
@@ -98,36 +105,129 @@ h4 {
     right: 100%; 
 }
 
-
 .aboutmetitle {
     text-align: center;
     font-size: 35px;
-    margin-top: -600px;
+    margin-top: -550px;
 }
     
 .about img {
-    width: 500px;
-    height: 500px;
-    margin-left: 160px; 
+    width: 550px;
+    height: 550px;
+    margin-left: 160px;
+    flex-wrap: wrap;
 }
 
 .abouttext {
-    text-align: right;
-    max-width: 700px;
-    margin-left: 1000px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: 680px;
     justify-content: center;
+    padding-left: 70px;
+    text-justify: distribute-all-lines;
+    margin-top: 1px;
+    flex-wrap: wrap;
 }
 
 .abouttext p {
-    font-size: 27px;
+    font-size: 22px;
 }
 
+/* portfolio */ 
+
+.foliotitle {
+    text-align: center;
+    font-size: 35px;
+    margin-top: -550px;
+    
+}
+
+.portfoliocontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.portfoliocontainer .gallery {
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.portfoliocontainer .gallery .work {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+}
+
+.work p {
+    padding-top: 40px;
+    padding-bottom: 20px; 
+}
+
+.work img {
+    width: 400px;
+    height: 200px;
+    padding-top: 40px;  
+    padding-bottom: 20px;
+    padding-right: 5px;
+}
+
+
+/* contact */
+
+.contact {
+    width: 10px;
+    height: 10px;
+    right: 100%; 
+}
+
+.contactmetitle {
+    text-align: center;
+    font-size: 35px;
+    margin-top: -550px;
+}
+    
+.contact img {
+    width: 550px;
+    height: 550px;
+    margin-left: 160px;
+    flex-wrap: wrap;
+}
+
+
+.contacttext {
+    text-align:left;
+    max-width: 600px;
+    margin-left: 680px;
+    justify-content: left;
+    padding-left: 70px;
+    margin-top: 1px;
+    flex-wrap: wrap;
+}
+
+.contacttext p {
+    font-size: 22px;
+}
 
 
 /* footer */ 
 footer {
     bottom: 0;
-    padding: 2rem;
+    padding: 10rem;
 }
+
+
+
+
+
+
+
+
 
 
